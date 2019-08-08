@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+.backgroundImg{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/f1e267d6-6c89-4764-b978-5f074b26bea5/b3971fff-4585-4604-83a5-c2d03571d56b/US-en-20190722-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+    background-repeat: no-repeat;
+}
+
+.backgroundOne{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height: 100vh;
+    background-color: black;
+    opacity:0.5;
+}
+
+.bannerImg{
+    background-image:url(assets/Netflix_Logo_RGB.png);
+    z-index:2;
+}
+/* 
+
+.redButtonSignIn{
+    position:absolute;
+    top:20px;
+    left:1575px;
+    height: 35px;
+    width:80px;
+    background-color:red;
+    border-radius:3px;
+} */
