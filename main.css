@@ -195,6 +195,241 @@ a.signInText:hover{
     background-color: red;
 }
 
+.rowOne{
+    display: flex;
+    padding:50px 375px;
+    position:relative;
+    top:50px;
+
+}
+
+.questions{
+    font-size:16px;
+    color:#9A9999;
+    position: relative;
+    font-family:'Helvetic Neue', Arial, Helvetica, sans-serif;
+}
+
+.phoneNum{
+    font-size:16px;
+    color:#9A9999;
+    position: relative;
+    font-family:'Helvetic Neue', Arial, Helvetica, sans-serif;
+}
+
+.phoneNum:hover{
+    text-decoration:underline;
+}
+
+.rowTwo{
+    position: relative;
+    top:19px;
+    display: flex;
+    padding:0px 375px;
+    font-family:'Helvetic Neue', Arial, Helvetica, sans-serif;
+    font-size:13px;
+    justify-content: space-between;
+}
+
+.rowThree{
+    position: relative;
+    top:27px;
+    display: flex;
+    padding:0px 375px;
+    font-family:'Helvetic Neue', Arial, Helvetica, sans-serif;
+    font-size:13px;
+    justify-content: space-between;
+}
+
+.rowFour{
+    position: relative;
+    top:37px;
+    display: flex;
+    padding:0px 375px;
+    font-family:'Helvetic Neue', Arial, Helvetica, sans-serif;
+    font-size:13px;
+    justify-content: space-between;
+}
+
+a.waysToWatch:link{
+    color: #9A9999;
+    text-decoration:none;
+    position:relative;
+    
+}
+
+a.waysToWatch:visited{
+    color:#9A9999;
+    text-decoration:none;
+}
+
+a.waysToWatch:hover{
+    text-decoration: underline;
+}
+
+a.termsOfUse:link{
+    color: #9A9999;
+    text-decoration:none;
+    position:relative;
+    left:-30px;
+}
+
+a.termsOfUse:visited{
+    color:#9A9999;
+    text-decoration:none;
+}
+
+a.termsOfUse:hover{
+    text-decoration: underline;
+}
+
+a.privacy:link{
+    color: #9A9999;
+    text-decoration:none;
+    position:relative;
+    left:-5px;
+}
+
+a.privacy:visited{
+    color:#9A9999;
+    text-decoration:none;
+}
+
+a.privacy:hover{
+    text-decoration: underline;
+}
+
+a.cookie:link{
+    color: #9A9999;
+    text-decoration:none;
+    position:relative;
+    left:35px;
+}
+
+a.cookie:visited{
+    color:#9A9999;
+    text-decoration:none;
+}
+
+a.cookie:hover{
+    text-decoration: underline;
+}
+
+a.investerRelations:link{
+    color: #9A9999;
+    text-decoration:none;
+}
+
+a.investerRelations:visited{
+    color:#9A9999;
+    text-decoration:none;
+}
+
+a.investerRelations:hover{
+    text-decoration: underline;
+}
+
+a.jobs:link{
+    color: #9A9999;
+    text-decoration:none;
+    position:relative;
+    left:-45px;
+}
+
+a.jobs:visited{
+    color:#9A9999;
+    text-decoration:none;
+}
+
+a.jobs:hover{
+    text-decoration: underline;
+}
+
+a.redeemGift:link{
+    color: #9A9999;
+    text-decoration:none;
+    position:relative;
+    left:30px;
+}
+
+a.redeemGift:visited{
+    color:#9A9999;
+    text-decoration:none;
+}
+
+a.redeemGift:hover{
+    text-decoration: underline;
+}
+
+a.buyGift:link{
+    color: #9A9999;
+    text-decoration:none;
+}
+
+a.buyGift:visited{
+    color:#9A9999;
+    text-decoration:none;
+}
+
+a.buyGift:hover{
+    text-decoration: underline;
+}
+
+a.faq:link{
+    color: #9A9999;
+    text-decoration:none;
+}
+
+a.faq:visited{
+    color:#9A9999;
+    text-decoration:none;
+}
+
+a.faq:hover{
+    text-decoration: underline;
+}
+
+a.helpCenter:link{
+    color: #9A9999;
+    text-decoration:none;
+}
+
+a.helpCenter:visited{
+    color: #9A9999;
+    text-decoration:none;
+}
+
+a.helpCenter:hover{
+    text-decoration: underline;
+}
+
+a.account:link{
+    color: #9A9999;
+    text-decoration:none;
+}
+
+a.account:visited{
+    color: #9A9999;
+    text-decoration:none;
+}
+
+a.account:hover{
+    text-decoration: underline;
+}
+
+a.mediaCenter:link{
+    color: #9A9999;
+    text-decoration:none;
+}
+
+a.mediaCenter:visited{
+    color: #9A9999;
+    text-decoration:none;
+}
+
+a.mediaCenter:hover{
+    text-decoration: underline;
+}
 
 #seeWhatText{
     font-size:80px;
