@@ -1,39 +1,237 @@
 body{
     margin:0;
     padding:0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .backgroundImg{
     background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/f1e267d6-6c89-4764-b978-5f074b26bea5/b3971fff-4585-4604-83a5-c2d03571d56b/US-en-20190722-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     background-size: cover;
-    height:100vh;
+    height:93vh;
     width:100vw;
     background-repeat: no-repeat;
+    z-index:0;
 }
 
 .backgroundOne{
-    position:absolute;
+    position: absolute;
     top:0px;
     left:0px;
     width:100vw;
-    height: 100vh;
+    height: 93vh;
     background-color: black;
     opacity:0.5;
+    z-index: 1;
+
 }
 
-.bannerImg{
-    background-image:url(assets/Netflix_Logo_RGB.png);
+.backgroundTwo{
+
+    width:100vw;
+    height:19vh;
+    background-color: rgb(20,20,20) ;
+    z-index:0;
+
+}
+
+.backgroundThree{
+    width: 100vw;
+    height:100vh;
+    background-color:black;
+    z-index:0;
+}
+
+    
+a.tryLarge:link{
+    position:relative;
+    background-color: rgb(245,5,5);
+    top:2em;
+    left:21.5em;
+    color: white;
+    padding: 24px 65px;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Helvetic Neue', Arial, Helvetica, sans-serif;
+    font-size:32px;
+    z-index:3;
+
+}
+
+a.tryLarge:visited{
+    background-color: #f44336;
+    color: white;
+    padding: 24px 65px;
+    text-align: center;
+    text-decoration: none;
+    z-index:3;
+    
+}
+
+a.tryLarge:hover{
+    background-color:red;
+    color: white;
+    padding: 24px 65px;
+    text-align: center;
+    text-decoration: none;
+    z-index:3;
+    
+}
+
+
+.containerOne{
+    display: flex;
+    padding:2em 8em;
+    justify-content: space-around;
+}
+
+.containerTwo{
+    display: flex;
+    justify-content: space-around;
+    padding: 3em 15em;
+}
+
+.redBar{
+    position:relative;
+    top:9.7em;
+    left:11em;
+    width:25vw;
+    background-color:rgb(223,0,0);
+    height:.7vh;
+
+
+}
+
+.greyBar{
+    width:100vw;
+    height:0.25vh;
+    background-color: #383838;
+
+}
+
+
+a.tryFreeButton:link {
+    position:relative;
+    background-color: rgb(245,5,5);
+    top:-225px;
+    left:240px;
+    color: white;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Helvetic Neue', Arial, Helvetica, sans-serif;
+    font-size:14px;
+}
+
+a.tryFreeButton:visited{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.tryFreeButton:hover{
+    background-color:red;
+    color: white;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+bannerImg:link{
+    background-image:url(assets/Netflix_Logo_CMYK.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    position:relative;
+    top:0%;
+    left:45%;
+    height:200px;
+    width:500px;
     z-index:2;
 }
-/* 
 
-.redButtonSignIn{
-    position:absolute;
-    top:20px;
-    left:1575px;
-    height: 35px;
-    width:80px;
-    background-color:red;
-    border-radius:3px;
+
+
+/* #bannerImg{
+    background-image:url(assets/Netflix_Logo_CMYK.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    position:relative;
+    top:0%;
+    left:45%;
+    height:200px;
+    width:500px;
+    z-index:2;
 } */
+
+
+a.signInText:link{
+    position:relative;
+    color:white;
+    top:-150px;
+    left:93%;
+    padding: 15px 20px;
+    text-align: center;
+    background-color: rgb(223,0,0);
+    border-radius:3px;
+    text-decoration: none;
+    z-index:2;
+    font-family:'Helvetic Neue', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+a.signInText:visited{
+    position:relative;
+    color:white;
+    top:-150px;
+    left:93%;
+    padding: 15px 20px;
+    text-align: center;
+    background-color: rgb(223,0,0);
+    border-radius:3px;
+}
+
+a.signInText:hover{
+    position:relative;
+    color:white;
+    top:-150px;
+    left:93%;
+    padding: 15px 20px;
+    text-align: center;
+    background-color: red;
+    border-radius:3px;
+}
+
+
+#seeWhatText{
+    font-size:80px;
+    font-weight:700;
+    position:relative;
+    font-family:'Helvetic Neue', Arial, Helvetica, sans-serif;
+    z-index:2;
+    left:35%; 
+    color:white;
+}
+
+#watchAnyText{
+    font-size:30px;
+    font-weight:350;
+    position:relative;
+    font-family:'Helvetic Neue', Arial, Helvetica, sans-serif;
+    z-index:2;
+    top:1em;
+    color:white;
+    left:37%;
+
+}
+
+#noCommit{
+    position: relative;
+    top: 100px;
+    font-size: 32px;
+    font-family:'Helvetic Neue', Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+
