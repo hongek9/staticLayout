@@ -45,8 +45,8 @@ body{
 a.tryLarge:link{
     position:relative;
     background-color: rgb(245,5,5);
-    top:2em;
-    left:21.5em;
+    top:5.8em;
+    left:19em;
     color: white;
     padding: 24px 65px;
     text-align: center;
@@ -128,7 +128,7 @@ a.tryFreeButton:visited{
     padding: 14px 30px;
     text-align: center;
     text-decoration: none;
-}
+ }
 
 a.tryFreeButton:hover{
     background-color:red;
@@ -138,17 +138,15 @@ a.tryFreeButton:hover{
     text-decoration: none;
 }
 
-bannerImg:link{
-    background-image:url(assets/Netflix_Logo_CMYK.png);
-    background-repeat: no-repeat;
-    background-size: 40%;
+.bannerImg{
     position:relative;
-    top:0%;
-    left:45%;
-    height:200px;
-    width:500px;
+    background-repeat: no-repeat;
+    left:44%;
+    height:75px;
+    width:200px;
     z-index:2;
 }
+
 
 
 
@@ -168,8 +166,8 @@ bannerImg:link{
 a.signInText:link{
     position:relative;
     color:white;
-    top:-150px;
-    left:93%;
+    top:-30px;
+    left:80%;
     padding: 15px 20px;
     text-align: center;
     background-color: rgb(223,0,0);
@@ -183,23 +181,18 @@ a.signInText:link{
 a.signInText:visited{
     position:relative;
     color:white;
-    top:-150px;
-    left:93%;
-    padding: 15px 20px;
-    text-align: center;
+    top:-30px;
+    left:80%;
     background-color: rgb(223,0,0);
-    border-radius:3px;
+
 }
 
 a.signInText:hover{
     position:relative;
     color:white;
-    top:-150px;
-    left:93%;
-    padding: 15px 20px;
-    text-align: center;
+    top:-30px;
+    left:80%;
     background-color: red;
-    border-radius:3px;
 }
 
 
@@ -209,7 +202,8 @@ a.signInText:hover{
     position:relative;
     font-family:'Helvetic Neue', Arial, Helvetica, sans-serif;
     z-index:2;
-    left:35%; 
+    left:30%; 
+    top:1.25em;
     color:white;
 }
 
@@ -219,9 +213,9 @@ a.signInText:hover{
     position:relative;
     font-family:'Helvetic Neue', Arial, Helvetica, sans-serif;
     z-index:2;
-    top:1em;
     color:white;
-    left:37%;
+    left:32%;
+    top:125px;
 
 }
 
